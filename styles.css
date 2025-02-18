@@ -68,12 +68,15 @@ video {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+
+#videoSection {
   height: 400px;
   margin-bottom: 100px;
 }
 
-.content div {
-  width: 100%;
+#videoSection div {
+  width: 50%;
 }
 
 .content .textContainer {
@@ -98,4 +101,28 @@ video {
   background-color: var(--primary-color);
   padding: 20px;
   border-radius: 25px;
+}
+
+#textSection {
+  height: 700px;
+}
+
+#textSection .textContainer {
+  width: 70%;
+  padding: 0;
+  gap: 60px;
+}
+
+#textSection .textContainer h3 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#textSection .textContainer p {
+  width: 60%;
+}
+
+.imageContainer {
+  background: url("assets/image.jpeg") no-repeat center center/cover;
+  width: 40%;
 }
