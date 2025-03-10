@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
               &#10003;
             </div>
             <p style="font-size: 1.2rem; color: var(--font-color);">
-              Votre message a été envoyé
+              Your message has been sent successfully!
             </p>
           </div>
         `;
